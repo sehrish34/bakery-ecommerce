@@ -1,0 +1,21 @@
+.contact-section {
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-heading {
+    font-family: var(--Roboto);
+    font-size: 28px;
+    color: var(--WineColor);
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+

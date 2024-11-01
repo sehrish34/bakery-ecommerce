@@ -1,0 +1,79 @@
+.bakery-item-card {
+    width: 200px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    margin: 10px;
+  }
+  
+  .bakery-item-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100% !important;
+  }
+  
+  .bakery-image {
+    width: 1000px;
+    height: auto;
+    transition: opacity 0.3s;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 400px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .bakery-item-card:hover .overlay {
+    opacity: 1;
+  }
+  
+  .eye-icon {
+    color: white;
+    font-size: 24px;
+  }
+  
+  .card-content {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item-name {
+    font-family: var(--Roboto);
+    font-weight: bold;
+    font-size: 18px;
+    color:black
+  }
+  
+  .item-price {
+    color:grey;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .add-to-cart-btn {
+    background-color: var(--WineColor);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #e0a800; 
+  }

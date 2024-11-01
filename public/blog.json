@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "image": "https://example.com/path-to-image.jpg",
+        "title": "The Art of Sourdough Bread: A Beginner’s Guide",
+        "content": "Discover the secrets behind making the perfect sourdough bread. From crafting the starter to achieving the perfect crust, this guide is for anyone who wants to bake bread like a pro. We also explore the health benefits of naturally fermented bread and provide tips on how to keep your starter alive."
+    },
+    {
+        "id": "2",
+
+        "image": "https://example.com/path-to-image.jpg",
+        "title": "5 Classic Pastries You Must Try",
+        "content": "Step into the world of classic pastries with our top 5 must-try treats. Whether you're a fan of buttery croissants, flaky Danish pastries, or sweet éclairs, we break down what makes each of these delicacies special and how you can recreate them at home."
+    },
+    {
+        "id": "3",
+        "image": "https://example.com/path-to-image.jpg",
+        "title": "How to Create the Perfect Cake for Every Occasion",
+        "content": "Cakes are at the heart of celebrations. Learn how to craft the perfect cake for any event, whether it’s a birthday, wedding, or simple family gathering. We offer tips on choosing the right flavor combinations, icing techniques, and decoration ideas to impress your guests."
+    },
+    {
+        "id": "4",
+        "image": "https://example.com/path-to-image.jpg",
+        "title": "10 Essential Baking Tools Every Baker Needs",
+        "content": "If you're new to baking or looking to upgrade your kitchen setup, we list the 10 essential tools every baker should own. From mixing bowls and measuring cups to a reliable oven thermometer, these tools will help make your baking more efficient and enjoyable."
+    }
+]

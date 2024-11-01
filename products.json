@@ -1,0 +1,170 @@
+{
+    "bakeryItems": [{
+      "cakes": {
+        "image":"cake.jpg",
+        "description": "Indulge in our rich and delightful cakes, perfect for celebrations or just a sweet treat.",
+        "items": [
+          {
+            "id": 1,
+            "image": "cake1.jpeg",
+            "name": "Chocolate Cake",
+            "price": 25.99,
+            "description": "A moist chocolate cake topped with rich chocolate ganache."
+          },
+          {
+            "id": 4,
+            "image": "cake3.jpeg",
+            "name": "Icing Cake",
+            "price": 28.99,
+            "description": "A fluffy cake covered in smooth icing, perfect for any occasion."
+          },
+          {
+            "id": 5,
+            "image": "rainbow.jpeg",
+            "name": "Cherry Cake",
+            "price": 24.99,
+            "description": "A delightful cake with cherry topping, combining sweetness with a hint of tartness."
+          },
+          {
+            "id": 6,
+            "image": "pink.jpeg",
+            "name": "Pink Cake",
+            "price": 27.99,
+            "description": "A light and airy pink cake that melts in your mouth."
+          }
+        ]
+      },
+      "buns": {
+      "image":"bun.jpg",
+
+        "description": "Freshly baked buns that are soft and perfect for any meal or snack.",
+        "items": [
+          {
+            "id": 3,
+            "image": "buns.jpeg",
+            "name": "Buns",
+            "price": 2.49,
+            "description": "Fluffy and soft buns, great for breakfast or as a side."
+          }
+        ]
+      },
+      "pastries": {
+        "image":"pasteries.jpeg",
+        "description": "A selection of pastries that are flaky, buttery, and full of flavor.",
+        "items": [
+          {
+            "id": 2,
+            "image": "1.jpeg",
+            "name": "Croissant",
+            "price": 3.99,
+            "description": "A classic French croissant, buttery and flaky."
+          },
+          {
+            "id": 7,
+            "image": "pasteries.jpeg",
+            "name": "Pastry",
+            "price": 4.99,
+            "description": "A delightful pastry filled with sweet cream."
+          },
+          {
+            "id": 8,
+            "image": "rainbow.jpeg",
+            "name": "Pink Pastry",
+            "price": 5.49,
+            "description": "A sweet and colorful pastry, a treat for your eyes and palate."
+          }
+        ]
+      },
+      "donuts": {
+      "image":"donuts.jpeg",
+
+        "description": "Delicious donuts, soft and sweet, perfect for a quick snack or dessert.",
+        "items": [
+          {
+            "id": 9,
+            "image": "bun3.jpeg",
+            "name": "Glazed Donut",
+            "price": 1.99,
+            "description": "A classic glazed donut, light and airy with a sweet finish."
+          }
+        ]
+      }, 
+       "ourBestSellers": {
+        "image":"donuts.jpeg",
+  
+          "description": "Delicious donuts, soft and sweet, perfect for a quick snack or dessert.",
+          "items": [
+            {
+              "id": 10,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 20,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 30,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 40,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 60,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 80,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 90,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 100,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 110,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            },
+            {
+              "id": 120,
+              "image": "rainbow.jpeg",
+              "name": "Glazed Donut",
+              "price": 1.99,
+              "description": "A classic glazed donut, light and airy with a sweet finish."
+            }
+          ]
+        }
+}]
+  }

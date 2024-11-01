@@ -1,0 +1,23 @@
+.bakery-button {
+    padding: 12px 24px; 
+    background-color:     var(--WineColor);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-family: var(--Roboto); 
+    font-size: 18px; 
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.bakery-button:hover {
+    background-color:  black; 
+    transform: scale(1);
+}
+
+.bakery-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px  var(--WineColor);
+}

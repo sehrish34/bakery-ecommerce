@@ -1,0 +1,99 @@
+header {
+    background-color: var(--SkinColor); 
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    max-width: 2560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--WineColor);
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.menu li a.active {
+    font-weight: bold;
+    color: var(--WineColor);
+}
+
+.right-icons {
+    display: flex;
+    align-items: center; }
+
+.icon {
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: #333;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 90px;
+    background-color: rgb(201, 139, 109);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 2px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+    .menu ul li {
+        display: none;
+    }
+    .menu ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+  
+    .right-icons {
+        display: none;
+    }
+
+    .right-icons .FaShoppingCart {
+        display: flex;
+    }
+}
